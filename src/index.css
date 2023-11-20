@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SF";
+  src: url("../public/fonts/SF-Pro.ttf");
+}
+
+@font-face {
+  font-family: "SDB";
+  src: url("../public/fonts/AppleSDGothicNeoB.ttf");
+}
+@font-face {
+  font-family: "SDL";
+  src: url("../public/fonts/AppleSDGothicNeoL.ttf");
+}
+@font-face {
+  font-family: "SDR";
+  src: url("../public/fonts/AppleSDGothicNeoR.ttf");
+}
+@font-face {
+  font-family: "SDM";
+  src: url("../public/fonts/AppleSDGothicNeoM.ttf");
+}

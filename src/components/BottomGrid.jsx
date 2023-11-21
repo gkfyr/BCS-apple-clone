@@ -8,7 +8,7 @@ import Iphone15 from "./Iphone15";
 export default function BottomGrid() {
   return (
     <>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 gap-3 p-3">
         <AppleGift />
         <Iphone15 />
         <AirPodsPro />

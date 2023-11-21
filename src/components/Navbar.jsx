@@ -19,7 +19,7 @@ const navbartextlist = [
 const NavbarComp = ({ text }) => {
   return (
     <li className="flex items-center">
-      <span className="text-[12px] font-[SDR] font-[400] text-[#bcbcbc]">
+      <span className="text-[12px] font-[SDR] font-[400] pt-1 text-[#bcbcbc] cursor-pointer">
         {text}
       </span>
     </li>
@@ -29,20 +29,20 @@ const NavbarComp = ({ text }) => {
 export default function Navbar() {
   return (
     <>
-      <nav className="h-[44px] w-full bg-[#444444] top-0 sticky">
+      <nav className="h-[44px] w-full bg-[#444444] top-0 sticky z-50">
         <div className="flex h-full">
           <ul className="flex mx-auto justify-between items-center max-w-[1024px] w-full">
-            <li className="flex">
+            <li className="flex cursor-pointer">
               <FaApple size={18} color="#bcbcbc" />
             </li>
             {navbartextlist.map((v, i) => (
               <NavbarComp key={i} text={v.text} />
             ))}
 
-            <li className="flex">
+            <li className="flex cursor-pointer">
               <AiOutlineSearch size={18} color="#bcbcbc" />
             </li>
-            <li className="flex ">
+            <li className="flex cursor-pointer">
               <AiOutlineShopping size={18} color="#bcbcbc" />
             </li>
           </ul>

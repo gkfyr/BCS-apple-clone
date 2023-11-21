@@ -9,8 +9,8 @@ export default function Iphone15Pro() {
           티타늄. 초강력. 초경량. 초프로.
         </h2>
         <div className="text-[21px] font-[400] w-full text-center mt-[6px] text-[#2997ff] font-[SDM]">
-          <a className="mr-7">더 알아보기 &gt;</a>
-          <a>구입하기 &gt;</a>
+          <span className="mr-7 cursor-pointer">더 알아보기 &gt;</span>
+          <span className="cursor-pointer">구입하기 &gt;</span>
         </div>
         <div className="w-full h-auto ">
           <img

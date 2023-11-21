@@ -7,7 +7,9 @@ export default function TradeIn() {
           구입 시 사용할 수 있는 ₩250,000-₩1,060,000 상당의 크레딧이.
         </h5>
         <a className="text-[10px] text-[#1d1d1f] mr-1">1</a>
-        <h5 className="text-[14px] text-[#0066cc]">iPhone 쇼핑하기 &gt;</h5>
+        <h5 className="text-[14px] text-[#0066cc] cursor-pointer">
+          iPhone 쇼핑하기 &gt;
+        </h5>
       </div>
     </>
   );
